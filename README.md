@@ -1,13 +1,13 @@
 # Personal Finance Dashboard
 
-This program uses plotly's [dash](https://github.com/plotly/dash) library to visualize personal finances. It draws all its data from a single CSV file where transactions are recorded and then does some plots, tables and forecasts.
+This program uses plotly's [dash](https://github.com/plotly/dash) library to visualize personal finances. It draws all its data from a single CSV file where all transactions are recorded and then shown on the dashboard. The balance plot uses ARIMA to forecast.
 
 ![screenshot](screenshot.png)
 
 ## Usage
 
 ### Install Dependencies
-* Math: numpy, pandas
+* Math: numpy, pandas, pyramid-arima
 * Dashboard: dash, dash-renderer, dash-html-components, dash-core-components
 * Plotting: plotly
 
